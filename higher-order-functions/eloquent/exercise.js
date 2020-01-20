@@ -25,6 +25,7 @@ function loop(initValue , terminatingCondition , increment  , operation){
 }
 
 
+
 loop(3, n => n > 0, n => n - 1, console.log);
 // → 3
 // → 2
@@ -39,6 +40,7 @@ function every(array, test) {
   for(let i = 0;i<array.length;i++){
    bool = test(array[i]) & bool;
   }
+  
   return Boolean(bool);
 }
 
