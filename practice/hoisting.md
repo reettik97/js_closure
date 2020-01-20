@@ -5,18 +5,25 @@
 ```js
 console.log(animal);
 var animal = "monkey";
+
+output: undefined  
+
 // Output or Error Message
 ```
 
 ```js
 console.log(animal);
 let animal = "monkey";
+
+output: Error 
 // Output or Error Message
 ```
 
 ```js
 console.log(animal);
 const animal = "monkey";
+
+output : 0;
 // Output or Error Message
 ```
 
@@ -25,6 +32,9 @@ function sayHello(msg) {
   alert(msg);
 }
 sayHello("Hey Everyone");
+
+output: show Hey Everyone in the alert box
+
 // Output or Error Message
 ```
 
@@ -33,6 +43,8 @@ sayHello("Hey Everyone");
 function sayHello(msg) {
   alert(msg);
 }
+
+Output: show Hey Everyone in the alert box
 // Output or Error Message
 ```
 
@@ -41,7 +53,10 @@ sayHello("Hey Everyone");
 var sayHello = msg => {
   alert(msg);
 };
+Output: Error
+
 // Output or Error Message
+
 ```
 
 ```js
@@ -49,4 +64,7 @@ sayHello("Hey Everyone");
 let sayHello = msg => {
   alert(msg);
 };
+
+Output: Error
+
 ```
